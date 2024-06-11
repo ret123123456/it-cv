@@ -1,0 +1,213 @@
+body{
+  margin:10;
+  padding:10;
+}
+.efg{
+  position:absolute;
+  margin-top:-1170px;
+}
+.hij{
+  position:absolute;
+  margin-top:-1170px;
+  margin-left:410px;
+}
+.klm{
+  position:absolute;
+  margin-top:-540px;
+  margin-left:5px;
+}
+.icbc{
+  position:absolute;
+  margin-top:-850px;
+  margin-left:5px;
+}
+.opq{
+  position:absolute;
+  margin-top:-540px;
+  margin-left:450px;
+}
+.wmi{
+  position:absolute;
+  margin-top:-830px;
+  margin-left:410px;  
+}
+.book{
+  position:absolute;
+  margin-top:-1170px;
+  margin-left:950px;
+}
+.book1{
+  position:absolute;
+  margin-top:-1170px;
+  margin-left:1170px;
+}
+.book2{
+  position:absolute;
+  margin-top:-860px;
+  margin-left:950px;
+}
+.book3{
+  position:absolute;
+  margin-top:-860px;
+  margin-left:1170px;
+}
+.bg{
+  position:relative;
+  background:white url(https://eclass.cdsj5.edu.mo/file/user_photo/V21wT01rMHpUWHBOZUUxNlFYcE5SRTEzVFhwamVrMUVUWGhOZWxrOVRucE5lazFVVFhkTmVrRjZUVVJOTTAxNlFYcE5WRTB5VGpKTk0wNVVQVE13.jpg ) ;
+  height:1500px;
+  justify-content: center;
+  align-items: center;
+  background-size:50px;
+  background-position:0 0;
+  background-repeat:repeat-x;
+  animation:animate 15s linear infinite;
+}
+h{
+  position:absolute;
+  font-size:25px;
+  margin-left:170px;
+  margin-top:-1420px;
+}
+span{
+ font-size:18px;
+}
+span1{
+ font-size:18px;
+}
+h1{
+  position:absolute;
+  font-size:25px;
+  margin-left:170px;
+  margin-top:-1380px;
+}
+h2{
+  position:absolute;
+  font-size:25px;
+  margin-left:170px;
+  margin-top:-1340px;
+}
+p{
+  position:absolute;
+  font-size:15px;
+  margin-left:170px;
+  margin-top:-1310px;
+}
+h3{
+  position:absolute;
+  font-size:18px;
+  margin-left:10px;
+  margin-top:-1220px;
+}
+h5{
+  position:absolute;
+  font-size:18px;
+  margin-left:560px;
+  margin-top:-630px;  
+}
+h6{
+  position:absolute;
+  font-size:18px;
+  margin-left:950px;
+  margin-top:-1220px;
+}
+@keyframes animate{
+  from{
+    background-position:0 0;
+  }
+  to{
+    background-position:100% 0;
+  }
+}
+.image{
+  margin-top:-1430px;
+  margin-left:10px;
+  height: 200px;
+  position: absolute;
+}
+.container{
+  margin-top:-1260px;
+  animation-name: rotateX; 
+  animation-duration: 1.5s; 
+  animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.hovering{
+  margin-top:-170px;
+  opacity: 0.8;
+  animation-name: rotateY; 
+  animation-duration: 1.5s; 
+  animation-iteration-count: infinite;
+  transform: translateY(-9px);
+  
+    animation-timing-function: linear;
+}
+.abs{
+  position: absolute;
+  left:450px;
+  top:50px;
+}
+.moveX{
+  animation-name: rotateX; 
+  animation-duration: 3s; 
+  animation-iteration-count: infinite;
+}
+.moveY{
+  animation-name: rotateY; 
+  animation-duration: 3s; 
+  animation-iteration-count: infinite;
+}
+@keyframes rotateX {
+  12.5%{
+    transform: translateX(5.785);
+  }
+  25%{
+    transform: translateX(9px);
+  }
+  37.5%{
+    transform: translateX(5px);
+  }
+  50%{
+    transform: translateX(0px);
+  }
+  62.5%{
+    transform: translateX(-6px);
+  }
+  75%{
+    transform: translateX(-9px);
+  }
+  87.5%{
+    transform: translateX(-6px);
+  }
+}
+@keyframes rotateY {
+  12.5%{
+    transform: translateY(-6px);
+  }
+  25%{
+    transform: translateY(0px);
+  }
+  37.5%{
+    transform: translateY(6px);
+  }
+  50%{
+    transform: translateY(9px);
+  }
+  62.5%{
+    transform: translateY(6px);
+  }
+  75%{
+    transform: translateY(0px);
+  }
+  87.5%{
+    transform: translateY(-6px);
+  }
+}
+
+.vertical-line {
+  position: absolute;
+  background-color:black;
+  width: 2px;
+  height: 70em;
+  left:62%;
+  margin-top:15px;
+}
